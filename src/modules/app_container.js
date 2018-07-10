@@ -33,7 +33,7 @@ class AppContainer extends Component {
             <div className="flex-column full-width full-height">
                 {/* <Header history={this.props.history} /> */}
                 <AppHeader history={this.props.history} />
-                <div className="is-no-pad">
+                <div className="is-no-pad bg-white">
                     {this.props.children}
                 </div>
                 <Footer history={this.props.history} />

@@ -1,6 +1,24 @@
 @import "../../data/assets/style/style_import";
 
 .mainContainer {
+    .title {
+        color: #04428c;
+        font-size: 30px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subTitle {
+        color: #04428c;
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .firstSection {
         height: 90vh;
         background: grey;
@@ -12,7 +30,10 @@
         }
     }
 
-    .redArea {
-        min-height: 350px;
+    .secondSection {
+        .aboutProduct {
+            color: #999;
+            line-height: 26px;
+        }
     }
 }
